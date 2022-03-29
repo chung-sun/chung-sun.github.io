@@ -56,7 +56,7 @@
 
 <h3 align="center">My Projects (COMING SOON)</h3>
 
-<img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=first-web&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web">
+<img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=https://github.com/chung-sun/first-web&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web">
 
 
 ---
