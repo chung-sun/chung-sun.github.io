@@ -1,12 +1,12 @@
 # Hello World!, I'm Sun Chung
 
 <p align="center">
-<a href="https://github.com/chung-sun/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=chung-sun&show_icons=true&theme=gruvbox" />
-</a>
-<a href="https://github.com/chung-sun/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chung-sun&theme=gruvbox" />
-</a>
+  <a href="https://github.com/chung-sun/github-readme-stats">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=chung-sun&show_icons=true&theme=gruvbox" />
+  </a>
+  <a href="https://github.com/chung-sun/github-readme-stats">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chung-sun&theme=gruvbox" />
+  </a>
 </p>
 
 <br>
@@ -57,10 +57,15 @@
 <h3 align="center">My Projects</h3>
 
 <p align="center">
-<a href="https://github.com/chung-sun/first-web"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=first-web&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web"></a>
+  <a href="https://github.com/chung-sun/first-web">
+    <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=first-web&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web" />
+  </a>
 
-<a href="https://github.com/chung-sun/shapes"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=shapes&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web"></a>
+  <a href="https://github.com/chung-sun/shapes">
+    <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=shapes&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web" />
+  </a>
 </p>
+
 ---
 
 <!--
@@ -72,10 +77,10 @@
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="" height="30" width="40" /></a>
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" /></a>
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="" height="30" width="40" /></a>
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="" height="30" width="40" /></a>
+  <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="" height="30" width="40" /></a>
+  <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" /></a>
+  <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="" height="30" width="40" /></a>
+  <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="" height="30" width="40" /></a>
 </p>
 
 <p align="center"> © 2022 Sun Chung, all rights reserved.</p>
