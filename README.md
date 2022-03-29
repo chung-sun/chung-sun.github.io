@@ -9,12 +9,16 @@
 </a>
 </p>
 
+<br>
+
 <h3 align="center">What Am I Studying?</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 </p>
+
+<br>
 
 <h3 align="center">What Frameworks?</h3>
 <p align="center">
@@ -23,6 +27,8 @@
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </p>
 
+<br>
+
 <h3 align="center">Tools Using</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
@@ -30,20 +36,30 @@
   <img src="https://img.shields.io/badge/sublime_text-%23575757.svg?&style=for-the-badge&logo=sublime-text&logoColor=important" />
 </p>
 
+<br>
+
 <h3 align="center">Databases</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
+
+<br>
 
 <h3 align="center">Bootcamp</h3>
 <p align="center">
 <img width="282" src="https://img.shields.io/static/v1?label=&message=MIT xPRO&color=red" />
 </p>
 
+<br>
+
+---
+
 <h3 align="center">My Projects (COMING SOON)</h3>
 <!--
 <img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=REPO_NAME&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="github-readme-streak-stats">
 -->
+
+---
 
 <!--
 [![Chung's GitHub stats](https://github-readme-stats.vercel.app/api?username=chung-sun&show_icons=true&theme=gruvbox)](https://github.com/chung-sun/github-readme-stats)
