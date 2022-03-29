@@ -54,12 +54,13 @@
 
 ---
 
-<h3 align="center">My Projects (COMING SOON)</h3>
+<h3 align="center">My Projects</h3>
 
+<p align="center">
 <a href="https://github.com/chung-sun/first-web"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=first-web&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web"></a>
 
 <a href="https://github.com/chung-sun/shapes"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=chung-sun&repo=shapes&theme=react&bg_color=273849&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="https://github.com/chung-sun/first-web"></a>
-
+</p>
 ---
 
 <!--
