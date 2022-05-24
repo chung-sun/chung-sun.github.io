@@ -1,8 +1,7 @@
 body {
   padding: 0px;
-  margin: 0px;;
-  /* background-color: #212529; */
-  background-color: #827397;
+  margin: 0px;
+  background-color: white;
 }
 
 h1 {
@@ -47,7 +46,6 @@ em {
 /* Title - Navbar */
 
 .navbar {
-  /* background-color: #393E46; */
   background-color: #E9D5CA;
   color: #fff;
   font-size: 2em;
@@ -60,7 +58,6 @@ em {
 
 .introduction {
   padding: 180px 5%;
-  /* background-color: #393E46; */
   background-color: #E9D5CA;
   height: 100vh;
   text-align: right;
@@ -80,7 +77,6 @@ iframe {
 }
 
 #projects {
-  /* background-color: #212529; */
   background-color: #827397;
   text-align: center;
   color: white;
@@ -166,9 +162,9 @@ span.sub-heading {
 /* Section work */
 
 .work {
-  padding: 100px 0px;
+  padding-top: 80px;
   background-color: #363062;
-  height: 100vh;
+  height: 100%;
   text-align: center;
   color: #E9D5CA;
 }
@@ -180,6 +176,15 @@ span.sub-heading {
 .card {
   margin: 50px 0px;
 }
+
+.col {
+  padding: 0px;
+}
+
+/* .card .mx-auto {
+  width: 500px;
+  margin: 10px;
+} */
 
 .card-body p {
   color: #363062;
@@ -231,11 +236,10 @@ i {
 
 /********* @media section **********/
 @media only screen and (max-width: 1180px),
-            screen and (max-height: 1080px) {
+            screen and (max-height: 700px) {
   
   .introduction {
     padding: 80px 5%;
-    /* background-color: #393E46; */
     background-color: #E9D5CA;
     height: 100%;
     text-align: center;
