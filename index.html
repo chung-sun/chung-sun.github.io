@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -363,4 +364,371 @@
 
   <script src="./js/script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/759d061d5a.js" crossorigin="anonymous"></script>
+  <title>My Porfolio</title>
+</head>
+<body>
+  
+  <!-- Title -->
+
+  <section class="title">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="https://chung-sun.github.io">SUN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <!-- ml => ms and mr => me ms-auto will align to the right-->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#educations">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+          </ul>
+          <!-- search input -->
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+  </section>
+
+  <!-- Introduction -->
+
+  <section class="introduction">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Hi, I'm Sun</h1>
+        <h2>a developer</h2>
+        <h3>Hello, my name is Sun Chung.  I am a Full Stack MERN developer with a Bootcamp certificate from a top university, the Massachusetts Institute of Technology.</h3>
+      </div>
+	  <!-- YouTube link https://www.youtube.com/embed/5cd32657WV8 -->
+      <div class="col-lg-6 text-center">
+        <div class="embed-responsive embed-responsive-1by1">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5cd32657WV8" frameborder="0" width="400px" height="370px"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+
+  <section class="container" id="projects">
+
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>This project creates PacMan when the user clicks the Add button. Once satisfied with the PacMan creation, the user clicks the Start button.</h2>
+          <a href="https://github.com/chung-sun/pacmen"><img class="project-images" src="./images/pacmen.png" alt="PacMen Factory"></a>
+          <em>PacMen Factory</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">This project will track your mouse mevements. As you move your mouse, the positions of the eyes will move. You can click on the eye and it will close.</h2>
+          <a href="https://github.com/chung-sun/eye-exercise"><img class="project-images" src="images/eye-exercise.png" alt="The Eye Exercise"></a>
+          <em>The Eye Exercise</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">This project uses Mapbox GL to render Massachusetts Bay Transportation Authority Orange Bus Line 1 travelling from Harvard Square to Nubian Station.</h2>
+          <a href="https://github.com/chung-sun/real-time-bus-tracking"><img class="project-images" src="images/real-time-tracking.png" alt="Bus Tracking"></a>
+          <em>Bus Tracking</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <img class="press-images" src="images/html5.png" alt="tc-logo">
+    <img class="press-images" src="images/css.svg" alt="tnw-logo">
+    <img class="press-images" src="images/js.svg" alt="biz-insider-logo">
+    <img class="press-images" src="images/bootstrap.png" alt="biz-insider-logo">
+
+  </section>
+
+  <!-- Education -->
+
+  <section class="education" id="educations">
+
+    <div class="timeline">
+      
+      <h2 class="education-heading">Education</h2>
+      <p class="heading">
+        Full Stack MERN
+        <br><span class="sub-heading">Massachusetts Institute of Technology - 2022</span>
+      </p>
+      <p class="heading">
+        Unix System Administration
+        <br><span class="sub-heading">Worcester Politechnic Institute - 1999</span>
+      </p>
+      <p class="heading">
+        Master in Business Administration - MBA
+        <br><span class="sub-heading">New Yrok Institute of Technology - 1998</span>
+      </p>
+      <p class="heading">
+        Mechanical Engineering - BS
+        <br><span class="sub-heading">New Yrok Institute of Technology - 1995</span>
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Work Experience -->
+
+  <section class="work" id="works">
+
+    <h2>Work Experiences</h2>
+
+    <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-1 row-cols-xl-3 g-4">
+      <div class="col-sm-6">
+        <div class="card mx-auto" style="width: 31rem;">
+          <div class="card-body">
+            <h5 class="card-title">NOC - Newcom, Inc. Miramar, FL</h5>
+            <h6 class="card-subtitle mb-2 text-muted">09/2016 - Present</h6>
+            <ul>
+              <li class="card-text">Deliver service and support to end-users via remote connection</li>
+              <li class="card-text">Diagnose and resolve technical hardware and software issues</li>
+              <li class="card-text">Analyzing call logs so you can spot common trends and underlying problems</li>
+              <li class="card-text">Testing and fixing faulty equipment</li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              View
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">NOC - Newcom, Inc. Miramar, FL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                      <li>Deliver service and support to end-users via remote connection (TeamViewer) or over the phone</li>
+                      <li>Interact with customers to provide and process information in response to inquiries, concerns, and requests about products and services</li>
+                      <li>Gather customer’s information and determine the issue by evaluating and analyzing the symptoms</li>
+                      <li>Diagnose and resolve technical hardware and software issues involving internet connectivity, email clients, IPTV, VOIP and more</li>
+                      <li>Research required information using available resources</li>
+                      <li>Follow standard processes, procedures, identify and escalate priority issues per Client specifications</li>
+                      <li>Redirect problems to appropriate resource</li>
+                      <li>Accurately process and record call transactions using a computer and designated tracking software (Kayako)</li>
+                      <li>Offer alternative solutions where appropriate with the objective of retaining customers’ and clients’ business</li>
+                      <li>Organize ideas and communicate oral messages appropriate to listeners and situations</li>
+                      <li>Follow up and make scheduled call backs to customers where necessary</li>
+                      <li>Stay current with system information, changes and updates</li>
+                      <li>Working with customers/employees to identify equipment problems and advising on the solution</li>
+                      <li>Logging and keeping records of customer/employee queries</li>
+                      <li>Analyzing call logs so you can spot common trends and underlying problems</li>
+                      <li>Updating self-help documents so customers/employees can try to fix problems themselves</li>
+                      <li>Working with field engineers to visit customers/employees if the problem is more serious</li>
+                      <li>Testing and fixing faulty equipment</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="./resources/SunChung-2022.pdf" class="card-link">Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card mx-auto" style="width: 31rem;">
+          <div class="card-body">
+            <h5 class="card-title">Owner/Manager - Jimmy's Deli, FT Lauderdale, FL</h5>
+            <h6 class="card-subtitle mb-2 text-muted">07/2012 - 11/2015</h6>
+            <ul>
+              <li class="card-text">Increased loss prevention by 99 percent and in return increased profit by 3 percent</li>
+              <li class="card-text">With excellent guest services and absolute customer satisfaction, managed to increase sales by 20 percent</li>
+              <li class="card-text">Supervised employee recruitment, training, discipline and termination</li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              View
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Jimmy's Courthouse Deli, FT. Lauderdale, FL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                      <li>Managed day-to-day operations, including sales, tracking inventory, and contacting vendors</li>
+                      <li>Increased loss prevention by 99 percent and in return increased profit by 3 percent</li>
+                      <li>Thru small batches and constant delivery, where able to minimize waste by 20 percent and increase the freshness of the product</li>
+                      <li>Monitored compliances according sanitation, safety, and regulations</li>
+                      <li>With excellent guest services and absolute customer satisfaction, managed to increase sales by 20 percent</li>
+                      <li>Supervised employee recruitment, training, discipline and termination</li>
+                      <li>Prepared payroll, federal, state, and local taxes</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="./resources/SunChung-2022.pdf" class="card-link">Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card mx-auto" style="width: 31rem;">
+          <div class="card-body">
+            <h5 class="card-title">Manager - CSI Developers, Inc. W.P.B., FL</h5>
+            <h6 class="card-subtitle mb-2 text-muted">04/2010 - 11/2011</h6>
+            <ul>
+              <li class="card-text">Coordinated marketing campaigns and special events</li>
+              <li class="card-text">Functioned in project-management role.</li>
+              <li class="card-text">Oversees employee recruitment, training, dismissal and payroll</li>
+              <li class="card-text">Negotiating more favorable terms with different vendors</li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              View
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Manager - CSI Developers, Inc. W.P.B., FL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                      <li>Managed customer database, product updates, and upgrades.</li>
+                      <li>Coordinated marketing campaigns and special events</li>
+                      <li>In charge of accounts receivable, accounts payable and analyzed financial statements</li>
+                      <li>Functioned in project-management role.</li>
+                      <li>Use of project timeline lowered cost by 5 percent and increased productivity by 15 percent </li>
+                      <li>Federal, State and local compliances</li>
+                      <li>Oversees employee recruitment, training, dismissal and payroll</li>
+                      <li>Negotiating more favorable terms with different vendors</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="./resources/SunChung-2022.pdf" class="card-link">Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card mx-auto" style="width: 31rem;">
+          <div class="card-body">
+            <h5 class="card-title">Manager - ABC Trading, LLC. Doral, FL</h5>
+            <h6 class="card-subtitle mb-2 text-muted">04/2003 - 01/2010</h6>
+            <ul>
+              <li class="card-text">Maintained contact with vendors, factories, and clients</li>
+              <li class="card-text">Oversees, procurement, allocation, distribution control, stock levels, and cost</li>
+              <li class="card-text">Logistics, scheduling and booking of containers</li>
+            </ul>
+            <a href="./resources/SunChung-2022.pdf" class="card-link">Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card mx-auto" style="width: 31rem;">
+          <div class="card-body">
+            <h5 class="card-title">Team Leader - Azygo, Inc. New York, NY</h5>
+            <h6 class="card-subtitle mb-2 text-muted">07/2001 - 03/2003</h6>
+            <ul>
+              <li class="card-text">Web and Data server deployment</li>
+              <li class="card-text">Unix and Oracle server administration</li>
+              <li class="card-text">Liaison between management and technical department</li>
+            </ul>
+            <a href="./resources/SunChung-2022.pdf" class="card-link">Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card mx-auto" style="width: 31rem;">
+          <div class="card-body">
+            <h5 class="card-title">Programmer - Internet Teller Machine, L.I.C., NY</h5>
+            <h6 class="card-subtitle mb-2 text-muted">05/2000 - 07/2001</h6>
+            <ul>
+              <li class="card-text">o	Banking software development using Java</li>
+              <li class="card-text">o	Internet Explorer programming</li>
+            </ul>
+            <a href="./resources/SunChung-2022.pdf" class="card-link">Resume</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  <!-- Contact ME -->
+
+  <section class="contact" id="contact-me">
+
+    <h2>Contact ME</h2>
+
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-4">
+      <div class="col">
+        <p>Sun Chung</p>
+        <p><i class="fa-solid fa-phone"></i> 954-253-0526</p>
+        <p><i class="fa-solid fa-envelope"></i> chungsun.dev@gmail.com</p>
+      </div>
+      <div class="col">
+        <p>Social Media</p>
+        <i class="fa-brands fa-youtube fa-xl"> Youtube </i>
+        <i class="fa-brands fa-linkedin fa-xl"> Linkdin </i>
+        <i class="fa-brands fa-github fa-xl"> Github </i>
+      </div>
+      <div class="col">
+        Col 3
+      </div>
+    </div>
+    
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+>>>>>>> 437f8504263cedfe7b8b0089da51590327619c51
 </html>
