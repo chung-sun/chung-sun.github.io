@@ -10,12 +10,12 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
   color: #fff;
-  text-shadow: 2px 2px #363062;
+  text-shadow: 2px 2px #827397;
 }
 
 h2 {
   color: #fff;
-  text-shadow: 1px 1px #363062;
+  text-shadow: 1px 1px #827397;
   font-family: "Montserrat";
   line-height: 1.5;
   font-weight: 900;
@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   color: #fff;
-  text-shadow: 1px 1px #363062;
+  text-shadow: 1px 1px #827397;
   font-family: "Montserrat";
   line-height: 1.5;
   font-weight: bold;
@@ -32,7 +32,7 @@ h3 {
 }
 
 a {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 em {
@@ -64,7 +64,7 @@ em {
 }
 
 iframe {
-  border-radius: 10%;
+  border-radius: 2%;
 }
 
 /* Projects */
@@ -83,6 +83,10 @@ iframe {
   height: 100vh;
 }
 
+.project-heading {
+  padding-top: 20px;
+}
+
 .carousel-item {
   padding: 10% 15%;
 }
@@ -90,6 +94,10 @@ iframe {
 button {
   font-family: "Ubuntu";
   margin: 0 6px;
+}
+
+.carousel-item {
+  padding-top: 30px;
 }
 
 .press-images {
@@ -102,6 +110,7 @@ button {
 .education {
   background-color: #4D4C7D;
   height: 100vh;
+  font-family: "Montserrat";
 }
 
 /* Time Line */
@@ -128,11 +137,12 @@ span.sub-heading {
 .timeline p {
   border-top: 2px dashed;
   border-color: #E9D5CA;
-  margin:0; padding: 30px;
+  margin: 0; 
+  padding: 30px;
 }
 
 .timeline p:nth-child(even) {
-  border-left: 2px dashed;
+  border-left: 6px dashed;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   margin-right: 30px; 
@@ -140,7 +150,7 @@ span.sub-heading {
 }
 
 .timeline p:nth-child(odd) {
-  border-right: 2px dashed;
+  border-right: 6px dashed;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   margin-left: 30px; 
@@ -150,22 +160,23 @@ span.sub-heading {
 
 .timeline p:first-child {
   border-top: 0;
-  border-top-right-radius:0;
-  border-top-left-radius:0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 
 .timeline p:last-child {
-  border-bottom-right-radius:0;
-  border-bottom-left-radius:0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 /* Section work */
 
 .work {
-  padding-top: 80px;
+  padding-top: 30px;
   background-color: #363062;
-  height: 100%;
+  height: 100vh;
   text-align: center;
+  font-family: "Montserrat";
   color: #E9D5CA;
 }
 
@@ -174,18 +185,17 @@ span.sub-heading {
 }
 
 .card {
-  margin: 50px 0px;
+  margin: 20px 0px;
 }
 
 .col {
-  padding: 0px;
+  padding-bottom: 20px;
 }
 
-/* .card .mx-auto {
-  width: 500px;
-  margin: 10px;
-} */
-
+.card-body {
+  margin-bottom: 0px;
+  height: 100%;
+}
 .card-body p {
   color: #363062;
 }
@@ -205,21 +215,30 @@ span.sub-heading {
 }
 
 .modal-title {
-  color: black;
+  color: #363062;
 }
 
 .modal-body {
   text-align: left;
-  color: black;
+  color: #363062;
 }
 
 /* Contact Me */
 
 .contact {
-  padding: 200px 20%;
+  padding: 100px 7%;
+  margin: 0px;
   background-color: #212529;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   text-align: center;
+  font-family: "Montserrat";
+}
+
+.portrait-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
 }
 
 .contact .col {
@@ -227,6 +246,7 @@ span.sub-heading {
 }
 
 .contact h2 {
+  padding-bottom: 30px;
   color: #E9D5CA;
 }
 
@@ -234,9 +254,26 @@ i {
   color: #E9D5CA;
 }
 
+.social-media {
+  padding-bottom: 30px;
+}
+
+.about {
+  text-align: justify;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.copyright {
+  color: #E9D5CA;
+  padding-top: 100px;
+}
+
 /********* @media section **********/
 @media only screen and (max-width: 1180px),
-            screen and (max-height: 700px) {
+            screen and (max-height: 900px) {
   
   .introduction {
     padding: 80px 5%;
@@ -249,7 +286,11 @@ i {
     margin-top: 30px;
     width: 400px;
     height: 370px;
-    border-radius: 10%;
+    border-radius: 2%;
+  }
+
+  em {
+    font-size: 1.6rem;
   }
 
   #projects {
@@ -257,6 +298,10 @@ i {
     text-align: center;
     color: white;
     height: 100%;
+  }
+
+  .carousel-item h2 {
+    font-size: 1.3rem;
   }
 
   .press-images {
@@ -267,6 +312,11 @@ i {
   .education {
     background-color: #4D4C7D;
     height: 100%;
+    font-size: 0.8rem;
+  }
+
+  .education-heading {
+    font-size: 2rem;;
   }
 
   .work {
@@ -277,12 +327,42 @@ i {
     color: #E9D5CA;
   }
 
+  .work h2 {
+    font-size: 2rem;
+  }
+
   .card {
     margin: 20px 0px;
   }
+
+  .contact {
+    background-color: #212529;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .copyright {
+    padding-top: 50px;
+  }
+
 }
 
 @media only screen and (max-width: 700px) {
+
+  .navbar {
+    background-color: #E9D5CA;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
 
   .introduction h1 {
     font-family: "Montserrat";
@@ -314,7 +394,15 @@ i {
     margin-top: 20px;
     width: 200px;
     height: 170px;
-    border-radius: 10%;
+    border-radius: 2%;
+  }
+
+  em {
+    font-size: 1.5rem;
+  }
+
+  .project-heading {
+    font-size: 2rem;
   }
 
   .card {
