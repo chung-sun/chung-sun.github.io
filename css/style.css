@@ -84,7 +84,11 @@ iframe {
 }
 
 .project-heading {
+<<<<<<< HEAD
   padding-top: 20px;
+=======
+  padding-top: 30px;
+>>>>>>> c057a815da13fc399cb2c64845d01011023a7402
 }
 
 .carousel-item {
@@ -192,10 +196,13 @@ span.sub-heading {
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .card-body {
   margin-bottom: 0px;
   height: 100%;
 }
+=======
+>>>>>>> c057a815da13fc399cb2c64845d01011023a7402
 .card-body p {
   color: #363062;
 }
