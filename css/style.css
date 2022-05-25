@@ -32,7 +32,7 @@ h3 {
 }
 
 a {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 em {
@@ -81,6 +81,10 @@ iframe {
   text-align: center;
   color: white;
   height: 100vh;
+}
+
+.project-heading {
+  padding-top: 30px;
 }
 
 .carousel-item {
@@ -203,19 +207,19 @@ span.sub-heading {
 }
 
 .modal-title {
-  color: black;
+  color: #363062;
 }
 
 .modal-body {
   text-align: left;
-  color: black;
+  color: #363062;
 }
 
 /* Contact Me */
 
 .contact {
   padding: 100px 7%;
-  margin: 0px 20px;;
+  margin: 0px;
   background-color: #212529;
   height: 100%;
   width: 100%;
@@ -383,6 +387,14 @@ i {
     width: 200px;
     height: 170px;
     border-radius: 2%;
+  }
+
+  em {
+    font-size: 1.5rem;
+  }
+
+  .project-heading {
+    font-size: 2rem;
   }
 
   .card {
